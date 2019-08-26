@@ -17,3 +17,15 @@
 
 " Automatically deletes all trailing whitespace on save.
     autocmd BufWritePre * %s/\s\+$//e
+
+" Change Syntax Highlighting for VimWiki
+    let g:vimwiki_list = [{'path': '~/vimwiki/',
+                          \ 'syntax': 'markdown', 'ext': '.md'}]
+
+
+" Powerline
+set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
+" Always show statusline
+set laststatus=2
+set t_Co=256
+

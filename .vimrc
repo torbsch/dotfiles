@@ -19,7 +19,7 @@
     autocmd BufWritePre * %s/\s\+$//e
 
 " Change Syntax Highlighting for VimWiki
-    let g:vimwiki_list = [{'path': '~/vimwiki/',
+    let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
                           \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Powerline

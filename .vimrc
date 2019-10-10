@@ -1,3 +1,5 @@
+" Colors
+    set background=dark
 " Spaces
 	set nocompatible
 	filetype plugin on

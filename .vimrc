@@ -1,12 +1,16 @@
 " Colors
     set background=dark
-" Spaces
+" Tabs & Spaces
 	set nocompatible
 	filetype plugin on
-    syntax on       " enable syntax processing
+    syntax on           " enable syntax processing
+    set expandtab       "Use softtabstop spaces instead of tab characters for indentation
+    set shiftwidth=4    "Indent by 4 spaces when using >>, <<, == etc.
     set tabstop=4       " number of visual spaces per TAB
     set softtabstop=4   " number of spaces in tab when editing
     set expandtab       " tabs are spaces
+    set autoindent      "Keep indentation from previous line
+    set smartindent     "Automatically inserts indentation in some cases
 
 " Enable autocompletion:
     set wildmode=longest,list,full

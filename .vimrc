@@ -28,6 +28,8 @@
     let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
                           \ 'syntax': 'markdown', 'ext': '.md'}]
 
+" Set Spell language
+    set spelllang=de,en
 " Powerline
     set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
 " Always show statusline
